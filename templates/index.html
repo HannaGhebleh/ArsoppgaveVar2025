@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIKI</title>
+</head>
+<body>
+    <header>
+        <div class="h1">H I K I</div> 
+        <!-- <h1></h1> -->
+        <div class="LinkDiv">
+            <a class="Link " href="/">Hjem</a>
+            <a class="Link" href="{{url_for ('Manualer')}}">Manualer</a>
+            <a class="Link" href="{{url_for ('kontakt')}}">Kontakter</a>
+            <a class="link" href="{{url_for ('Om_oss')}}">Om oss</a>
+        </div>
+    </header>
+    <h2>
+    </h2>
+    <p></p>
+</body>
+
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,86 @@
+body{background-color: whitesmoke;
+margin: 0%;}
+h1{color: white;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: #3C3D37;
+    }
+p{color: white;}
+h1{font-family: Arial, Helvetica, sans-serif;}
+p{font-family: Arial, Helvetica, sans-serif;}
+header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: whitesmoke;
+    height:  45px;
+    width: auto; 
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 15px;
+
+}
+.b {
+    background-color: blue;
+}
+.LinkDiv{
+    gap: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+
+
+}
+.LinkDiv a {
+    color: #3C3D37;
+    text-decoration: none;
+    font-size: larger;
+
+
+}
+
+.LinkDiv a:hover{
+    transform: scale(1.1);
+    transition: 0,5s;
+    text-decoration: underline;
+}
+
+
+
+.h1{
+    color: white;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: black;
+    margin-right: auto;
+    margin-top: 16px;
+}
+
+.OmHiki{
+    display: flex;
+    flex-direction: column;
+    color: #3C3D37;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    margin-right: 47%;
+    margin-left: 20%;
+
+}
+
+.OmHiki h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 100;
+    font-size: 200%;
+    margin-top: 25px;
+}
+.OmHiki p{
+    color: #3C3D37;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: expanded;
+    line-height: 20px;
+}
